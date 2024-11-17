@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="frame">
+        <div class="display">
+            <div id="top" class="top"></div>
+            <div id="bottom" class="bottom"></div>
+        </div>
+        <div class="btn-container">
+            <audio id="myAudio">
+                <source src="click.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div id= "ce" class="btn">CE</div>
+            <div id= "del" class="btn">&#9249;</div>
+            <div id= "sub" class="btn">- <span id="hint">(Substract)</span></div>
+            <div id= "plus" class="btn">+ <span id="hint">(Add)</span></div>
+            <div id= "" class="btn number" data-num="7">7</div>
+            <div id= "" class="btn number" data-num="8">8</div>
+            <div id= "" class="btn number" data-num="9">9</div>
+            <div id= "mul" class="btn">x <span id="hint">(Multiply)</span></div>
+            <div id= "" class="btn number" data-num="4">4</div>
+            <div id= "" class="btn number" data-num="5">5</div>
+            <div id= "" class="btn number" data-num="6">6</div>
+            <div id= "div" class="btn">/ <span id="hint">(Divide)</span></div>
+            <div id= "" class="btn number" data-num="1">1</div>
+            <div id= "" class="btn number" data-num="2">2</div>
+            <div id= "" class="btn number" data-num="3">3</div>
+            <div id= "square" class="btn">x <sup>2</sup><span id="hint">(square)</span></div>
+            <div id= "decimal" class="btn" data-num=".">.</div>
+            <div id= "" class="btn number" data-num="0">0</div>
+            <div id= "" class="btn number" data-num="100">00</div>
+            <div id= "equal" class="btn">=</div>
+        </div>
+    </div>
+    <script defer src="main.js"></script>
+</body>
+</html>
